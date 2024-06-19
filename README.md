@@ -1,3 +1,18 @@
+The issues are- Too Many Requests and bodyPartsData is not iterable.
+
+GET https://exercisedb.p.rapidapi.com/exercises 429 (Too Many Requests).
+
+GET https://exercisedb.p.rapidapi.com/exercises/bodyPartList 403 (Forbidden).
+
+Error fetching body parts data: TypeError: bodyPartsData is not iterable
+at fetchExercisesData (SearchExercises.js:19:1).
+
+GET https://exercisedb.p.rapidapi.com/exercises/bodyPartList 429 (Too Many Requests).
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
